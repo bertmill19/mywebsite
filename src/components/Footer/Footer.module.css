@@ -1,0 +1,34 @@
+/* Footer.module.css */
+.footer {
+    background-color: #2C3E50; /* Dark blue background */
+    color: #FFFFFF; /* White text color */
+    text-align: center; /* Center the text inside the footer */
+    padding: 10px 0; /* Padding above and below the text */
+    position: relative; /* Position relative to the layout */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+  }
+  
+  .footerText {
+    margin: 0; /* No margin to keep things tight */
+    padding: 5px 0; /* A bit of padding at the top and bottom */
+    font-size: 0.8rem; /* Smaller font size for footer text */
+  }
+  
+  .socialIcons {
+    display: flex; /* Flexbox layout for the icons */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    padding: 10px 0; /* Padding above and below the icons */
+  }
+  
+  .socialIcon {
+    margin: 0 10px; /* Margin on the sides of each icon for spacing */
+    font-size: 1.2rem; /* Larger size for the icons */
+    transition: color 0.3s; /* Transition for a hover effect */
+  }
+  
+  .socialIcon:hover {
+    color: #3498DB; /* Change color on hover */
+  }
+  

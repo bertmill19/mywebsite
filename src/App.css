@@ -1,7 +1,59 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #f4f4f6;
+  --secondary-color: #726E97;
+  --accent-color: #1C7293;
+  --cta-color: #F4D03F;
+  --background-color: #1B262C;
+  --text-color: #f5f5f5;
 }
 
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+h2, h3 {
+  color: var(--primary-color);
+}
+
+a, .btn-primary {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.btn-cta {
+  background-color: var(--cta-color);
+  color: var(--background-color);
+  border: none;
+}
+
+/* Ensure links and buttons are styled for readability and impact */
+a:hover, .btn-primary:hover, .btn-cta:hover {
+  opacity: 0.8;
+}
+
+p {
+  color: var(--text-color);
+}
+
+/* If you have specific styles you still want to keep from the original App.css,
+   adjust them to fit the new design language. For example: */
+
+.App {
+  text-align: center;
+  /* You might remove or adjust global .App styles to better fit your new design */
+}
+
+/* Since .App-header might be part of your Header component, 
+   consider moving relevant styles to Header.module.css and adjusting as needed. */
+
+/* For any animations or specific effects you want to keep, 
+   adjust their color and behavior to match the new design language. */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,21 +65,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +73,5 @@
     transform: rotate(360deg);
   }
 }
+
+/* Adjust or remove .App-link and other specific styles as needed */

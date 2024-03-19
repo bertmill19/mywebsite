@@ -1,0 +1,40 @@
+/* Education.module.css */
+.educationSection {
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF; /* Assuming a light text color for dark background */
+    background-color: #1B262C; /* Dark background for the section */
+  }
+  
+  .schoolsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds space between the boxes */
+  }
+  
+  .school {
+    background-color: #333; /* Darker boxes on a dark background for contrast */
+    border: 1px solid #444; /* Slightly lighter border for subtle distinction */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: calc(50% - 20px); /* Half width minus gap, adjusts for responsiveness */
+    padding: 20px;
+    text-align: left;
+    color: #E1E1E1; /* Lighter text color for readability */
+  }
+  
+  .schoolLogo {
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .school {
+      width: 100%; /* Full width on smaller screens for better readability */
+    }
+  }
+  

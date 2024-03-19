@@ -1,0 +1,25 @@
+/* Header.module.css */
+.header {
+  color: rgb(219, 198, 198); /* Light text color for better visibility */
+  padding: 20px 0; /* Padding above and below the text */
+  margin-bottom: 30px; /* Space below the header */
+  text-align: center; /* Center the text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the header off the page */
+  font-family: 'Arial', sans-serif; /* Optional: Change the font */
+  background-image: url('../../assets/Toronto.jpeg'); /* Path to your Toronto image */
+  background-size: cover; /* Ensure the image covers the header area */
+  background-position: center; /* Center the background image */
+  height: 300px; /* Adjust the height as necessary */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align content vertically in the center */
+}
+
+.header h1 {
+  margin: 0; /* Remove default margin from the h1 */
+  font-size: 2rem; /* Set the size of the site title */
+  font-weight: normal; /* Optional: Set the font-weight */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+
+  

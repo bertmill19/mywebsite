@@ -1,0 +1,12 @@
+/* About.module.css */
+.aboutSection {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px;
+  margin: 20px; /* Space around the section - applies to all sides */
+  border-radius: 20px; /* Optional: adds rounded corners */
+}
+
+p {
+  color: #666; /* Lighter grey for paragraph text */
+  line-height: 1.6; /* Spacing out the lines for better readability */
+}
